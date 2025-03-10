@@ -1,0 +1,1 @@
+We can use mov instruction between register (mov x0,x10 which means x0=x10), also we can use immediate constants with #. Note 2: If you need to reference some variable, you can load it's address to the register ldr x0, =some_var. You can load data from that address with [] syntax and ldrb, ldrh or ldr instruction: ldr x1, [x0] will load 8 bytes from that address to x1 register.
